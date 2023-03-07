@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seu cep</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="sc.png">
+   
+<body >
+<header>
+    <div class="container-fluid col-12">
+        <h1 class="container">SEU CEP.COM</h1>
+    </div>
+</header>    
+
+<div  id="div1" class="container col-12" style="border-radius: 25px;" >
+    <div class="col-12"><h2>Digite seu CEP para saber as informações</h2></div>
+    
+    <div id="mandarCep" class="row m-5 ps-5">
+        <div class="col-6">
+            <input type="number" id="cep" placeholder="Digite seu CEP" class=" form-control" >
+        </div>
+        <div class="col-6">  <BUTTON onclick="pesquisarCep()"class="" >Pesquisar</BUTTON></div>
+  
+    </div>
+        <table id="listagem" class="table text-white">
+
+            <tr>
+                <th>CEP</th> 
+                <TH>logradouro</TH>
+                <th>complemento</th>
+                <th>Bairro</th>
+                <th>cidade</th>
+                <th>Estado</th>
+            </tr>
+
+        </table>
+</div>
+    <script src="/cep.js">    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <footer class="container">
+        <p>&copy; _emanuelmaia_</p>
+    </footer>
+
+</body>
+
+</html>
